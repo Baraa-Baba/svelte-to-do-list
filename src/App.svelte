@@ -1,10 +1,11 @@
 <script>
-	export let name;
+	import Todolist from "./compenents/Todolist.svelte";
+	import Addtodo from "./compenents/Addtodo.svelte";
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<Addtodo />
+	<Todolist />
 </main>
 
 <style>
